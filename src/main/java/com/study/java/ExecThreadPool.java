@@ -9,7 +9,7 @@ public class ExecThreadPool {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("---->>> Iniciando com Threads Pool <<<----");
+        System.out.println("---->>> Iniciando com Threads Pool <<<----");
         System.out.print("Envie a quantidade de request : ");
         var qtReqs = Integer.valueOf(scanner.nextLine());
         System.out.print("Qual a quantidade de Threads : ");
